@@ -7,7 +7,7 @@ let isbn = document.getElementById("isbn");
 let tbody = document.getElementById("book-list");
 function onClick(){
 	let tr = document.createElement("tr");
-	tr.innerHTML = `<td>${title.value}</td><td>${author.value}</td><td>${isbn.value}</td><td><button class="cancel-btn" onClick="onCancelBtn(this)">X</button></td>`;
+	tr.innerHTML = `<td>${title.value}</td><td>${author.value}</td><td>${isbn.value}</td><td><button class="delete" onClick="onCancelBtn(this)">X</button></td>`;
 	tbody.appendChild(tr);
 }
 

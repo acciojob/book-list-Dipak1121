@@ -6,7 +6,7 @@ table{
 th{
 	width: 25%;
 }
-.cancel-btn{
+.delete{
   background-color: red;
   border: none;
 }
